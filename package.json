@@ -1,0 +1,38 @@
+{
+  "name": "upgrade-angular",
+  "version": "0.0.0",
+  "description": "Tool to upgrade angular versions in package.json",
+  "main": "index.js",
+  "scripts": {
+    "release": "node ./node_modules/standard-version/bin/cli.js"
+  },
+  "bin": {
+    "upgrade-angular": "bin/angular.js",
+    "upgrade-angularjs": "bin/angularjs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/torbenm/upgrade-angular.git"
+  },
+  "keywords": [
+    "angular",
+    "upgrade",
+    "tool"
+  ],
+  "author": "torbenm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/torbenm/upgrade-angular/issues"
+  },
+  "homepage": "https://github.com/torbenm/upgrade-angular#readme",
+  "devDependencies": {
+    "standard-version": "^4.2.0",
+    "angular": "1.6.7"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "figures": "^2.0.0",
+    "request": "^2.83.0",
+    "yargs": "^10.0.3"
+  }
+}

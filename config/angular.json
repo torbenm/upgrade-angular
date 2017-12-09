@@ -1,0 +1,14 @@
+{
+    "reference": "@angular%2fcore",
+    "peers": [
+        "@angular/core",
+        "@angular/animations",
+        "@angular/common",
+        "@angular/compiler",
+        "@angular/forms",
+        "@angular/http",
+        "@angular/platform-browser",
+        "@angular/platform-browser-dynamic",
+        "@angular/router"
+    ]
+}
