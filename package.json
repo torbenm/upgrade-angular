@@ -26,8 +26,7 @@
   },
   "homepage": "https://github.com/torbenm/upgrade-angular#readme",
   "devDependencies": {
-    "standard-version": "^4.2.0",
-    "angular": "1.6.7"
+    "standard-version": "^4.2.0"
   },
   "dependencies": {
     "chalk": "^2.3.0",
