@@ -11,6 +11,6 @@
         "@angular/platform-browser-dynamic",
         "@angular/router",
         "@angular/compiler-cli",
-        "@angular/cli"
+        "@angular/language-service"
     ]
 }
